@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int QuizSum2; 
 	int TotalSum;
 	float grade;
-	
+
 	printf("What are your five exam grades? ");
 	scanf("%d %d %d %d %d", &exam_grades[0], &exam_grades[1], &exam_grades[2], &exam_grades[3], &exam_grades[4]);
         int TestSum = 0;
