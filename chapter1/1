@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+
+struct student
+{
+ char name[10];
+ int roll;
+};
+int main()
+{
+ struct student std;
+ printf("What is the student name: ");
+ scanf("%s",std.name);
+ printf("What is his average ");
+ scanf("%d",&std.roll);
+ show(std);
+}
+
+void show(struct student st)
+{
+ printf("\nstudent name is %s",st.name);
+ printf("\nroll is %d",st.roll);
+}
+
