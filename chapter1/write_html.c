@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 		return 7;
 	}
 
-	fptr = fopen("/tmp/my.html", "w");
+	fptr = fopen(argv[1], "w");
 	fprintf(fptr, "<HEAD>Hello</HEAD>\n");
 	fprintf(fptr, "<BODY>My First Page</BODY>\n");
 	fclose(fptr);
